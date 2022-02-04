@@ -1,0 +1,152 @@
+@keyframes example {
+    25% {
+        left: 100px;
+        top: 0px;
+        -webkit-filter: invert(100%);
+        -moz-filter: invert(100%);
+        -ms-filter: invert(100%);
+        -o-filter: invert(100%);
+        filter: invert(100%);
+    }
+    25% {
+        left: 100px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+@media (min-width: 600px) and (max-width: 900px) {
+    body {
+        text-align: center;
+        height: 120vh;
+    }
+}
+
+header {
+    display: flex;
+    width: 80vw;
+    height: 20vh;
+    border: solid cadetblue;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main {
+    background: #D3D3D3;
+    width: 80vw;
+    height: 100vh;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    width: 70vw;
+    height: 80vh;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+.info {
+    width: 25vw;
+    height: 5vh;
+    background-color: white;
+    margin-top: 0 0;
+}
+
+footer {
+    width: 80vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    background: black;
+}
+
+span {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.pie {
+    margin-left: 13vw;
+}
+
+footer .sociales {
+    display: flex;
+    width: 60vw;
+    height: 8vh;
+    margin-left: 10vw;
+    color: red;
+}
+
+.sociales ul li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+}
+
+.sociales ul li a {
+    display: block;
+    padding: 0 10px;
+    color: white;
+    font-size: 25px;
+    line-height: 10px;
+}
+
+.box:hover {
+    width: 30vw;
+    height: 30vh;
+    -ms-transform: rotate(45deg);
+    -ms-transform-origin: 20% 40%;
+    transform: rotate(45deg);
+    transform-origin: 20% 40%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+nav>ul {
+    margin-left: 10vw;
+    padding-right: 0.8em;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: xx-large;
+}
+
+h6 {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+img,
+iframe {
+    height: 30vh;
+    width: 25vw;
+}
+
+ul>li {
+    display: inline;
+    padding-right: 0.8em;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: x-large;
+}
